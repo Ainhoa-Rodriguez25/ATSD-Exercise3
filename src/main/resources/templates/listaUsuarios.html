@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments :: head (titulo='Lista de usuarios')"></head>
+<body>
+
+<div th:replace="${usuario != null} ?
+    ~{fragments :: navbar(usuario=${usuario})} :
+    ~{fragments :: navbar-anonymous}">
+</div>
+
+<div class="container-fluid">
+    <div class="row mt-3">
+        <div class="col">
+            <h2>Usuarios registrados</h2>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Email</th>
+                    <th>Descripción</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="usuario : ${usuarios}">
+                    <td th:text="${usuario.id}"></td>
+                    <td th:text="${usuario.email}"></td>
+                    <td>
+                        <a class="btn btn-primary btn-xs"
+                           th:href="@{/registered/{id}(id=${usuario.id})}">
+                            Ver descripción
+                        </a>
+                        <form th:if="${!usuario.block}"
+                              method="post"
+                              th:action="@{/registered/{id}/block(id=${usuario.id})}"
+                              style="display:inline;">
+                            <button type="submit" class="btn btn-danger btn-sm">
+                                Bloquear
+                            </button>
+                        </form>
+                        <form th:if="${usuario.block}"
+                              method="post"
+                              th:action="@{/registered/{id}/unblock(id=${usuario.id})}"
+                              style="display:inline;">
+                            <button type="submit" class="btn btn-success btn-sm">
+                                Desbloquear
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div th:replace="fragments::javascript"/>
+</body>
+</html>
