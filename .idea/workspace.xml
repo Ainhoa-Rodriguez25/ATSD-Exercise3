@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="108b104b-f40d-4237-a39c-1416f211d5db" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Exception" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3BQtW3OaRZYNrRtomq9LKXUAJ3u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.AboutPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BlockingUsersWebTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProtectionWebTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioListWebTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioWebTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="BlockingUsersWebTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atsd-todolist-your-full-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="todolist.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="todolist.controller" />
+      <option name="MAIN_CLASS_NAME" value="todolist.controller.BlockingUsersWebTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtectionWebTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atsd-todolist-your-full-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="todolist.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="todolist.controller" />
+      <option name="MAIN_CLASS_NAME" value="todolist.controller.ProtectionWebTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioListWebTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atsd-todolist-your-full-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="todolist.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="todolist.controller" />
+      <option name="MAIN_CLASS_NAME" value="todolist.controller.UsuarioListWebTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atsd-todolist-your-full-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="todolist.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="todolist.service" />
+      <option name="MAIN_CLASS_NAME" value="todolist.service.UsuarioServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioWebTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atsd-todolist-your-full-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="todolist.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="todolist.controller" />
+      <option name="MAIN_CLASS_NAME" value="todolist.controller.UsuarioWebTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="atsd-todolist-your-full-name" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="todolist.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BlockingUsersWebTest" />
+        <item itemvalue="JUnit.UsuarioServiceTest" />
+        <item itemvalue="JUnit.UsuarioListWebTest" />
+        <item itemvalue="JUnit.ProtectionWebTest" />
+        <item itemvalue="JUnit.UsuarioWebTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="108b104b-f40d-4237-a39c-1416f211d5db" name="Changes" comment="" />
+      <created>1774433151265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774433151265</updated>
+      <workItem from="1774433153586" duration="6520000" />
+      <workItem from="1774455284402" duration="10000" />
+      <workItem from="1774519049961" duration="1675000" />
+      <workItem from="1774521566526" duration="8727000" />
+      <workItem from="1774603393461" duration="6336000" />
+      <workItem from="1774690834861" duration="3898000" />
+      <workItem from="1774711290356" duration="422000" />
+      <workItem from="1774771501199" duration="7428000" />
+      <workItem from="1774884725297" duration="2514000" />
+      <workItem from="1774890085331" duration="3522000" />
+      <workItem from="1775047907441" duration="5079000" />
+      <workItem from="1775053670202" duration="4767000" />
+      <workItem from="1775117916749" duration="7583000" />
+      <workItem from="1775206887686" duration="6743000" />
+      <workItem from="1775309985390" duration="2187000" />
+      <workItem from="1775556145116" duration="2714000" />
+      <workItem from="1776180406164" duration="370000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
